@@ -1,0 +1,8 @@
+﻿<Window x:Class="MHMonstersElements.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="{Binding Title, Mode=OneTime}" UseLayoutRounding="True" SnapsToDevicePixels="True" FontFamily="Arial" Width="1024" Height="576" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#FFEBD196" Foreground="#FF371C01" Icon="Fire.ico">
+    <Grid>
+        <ContentControl Content="{Binding}" ContentTemplate="{StaticResource RootView}" Focusable="False"/>
+    </Grid>
+</Window>

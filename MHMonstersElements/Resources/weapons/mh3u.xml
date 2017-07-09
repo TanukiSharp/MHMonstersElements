@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Weapons>
+
+    <GreatSword Name="Remalgagorgon" Raw="1056" Element="400" ElementType="Water" Sharpness="White" SharpnessPlusOne="White"/>
+    <GreatSword Name="Epée Excalius" Raw="1152" Element="580" ElementType="Water" Sharpness="White" SharpnessPlusOne="White"/>
+    <GreatSword Name="Gladius Xiphias" Raw="912" Element="730" ElementType="Ice" Sharpness="Blue" SharpnessPlusOne="White"/>
+    <GreatSword Name="Grande épée Avidya" Raw="1104" Affinity="40" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <GreatSword Name="Croix du nord" Raw="1152" Element="520" Affinity="-10" ElementType="Ice" Sharpness="White" SharpnessPlusOne="White"/>
+    <GreatSword Name="Démolisseur Myxo" Raw="1248" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <GreatSword Name="Berce fléau Plesioth" Raw="960" Sharpness="White" SharpnessPlusOne="White"/>
+    <GreatSword Name="Epitaphe éternelle" Raw="1152" Element="700" Affinity="0" ElementType="Dragon" Sharpness="White" SharpnessPlusOne="White"/>
+    <GreatSword Name="Astérisme de Merak" Raw="1152" Affinity="30" Sharpness="Purple"/>
+    <GreatSword Name="Lufactrus Nether" Raw="1152" Element="700" Affinity="0" ElementType="Thunder" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <GreatSword Name="Acedia stygienne" Raw="1248" Element="480" Affinity="0" ElementType="Dragon" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <GreatSword Name="Flam argent Rathalos" Raw="1248" Element="520" Affinity="0" ElementType="Fire" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <GreatSword Name="Brunnhilde" Raw="1200" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <GreatSword Name="Evolutia Alathéos" Raw="1200" Element="580" Affinity="0" ElementType="Dragon" Sharpness="Purple"/>
+    <GreatSword Name="Depotheosis" Raw="1056" Element="720" Affinity="0" ElementType="Fire" Sharpness="Purple" SharpnessPlusOne="Purple"/>
+
+    <LongSword Name="Glace d'Edel" Raw="792" Element="300" Affinity="0" ElementType="Ice" Sharpness="White" SharpnessPlusOne="White"/>
+    <LongSword Name="Gula stygienne" Raw="825" Element="300" Affinity="0" ElementType="Dragon" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <LongSword Name="Au fond de la nuit" Raw="858" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <LongSword Name="Vagalhao de jade" Raw="792" Element="360" ElementType="Water" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <LongSword Name="Etouffe-âme" Raw="759" Sharpness="White" SharpnessPlusOne="White"/>
+    <LongSword Name="Lame Wyvern 'Rose'" Raw="858" Element="120" Affinity="0" ElementType="Fire" Sharpness="Purple"/>
+    <LongSword Name="Démolisseur Pyro" Raw="858" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <LongSword Name="Kibamaru" Raw="726" Element="180" Affinity="20" ElementType="Water" Sharpness="Purple"/>
+    <LongSword Name="Dilemme Nether" Raw="858" Element="300" Affinity="0" ElementType="Thunder" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <LongSword Name="Astérisme de Megrez" Raw="726" Affinity="50" Sharpness="Purple"/>
+    <LongSword Name="L'Adjudition" Raw="693" Element="500" Affinity="0" ElementType="Fire" Sharpness="Purple" SharpnessPlusOne="Purple"/>
+    <LongSword Name="Alustra Alathéos" Raw="792" Element="380" Affinity="0" ElementType="Dragon" Sharpness="Purple"/>
+
+    <DualBlades Name="Entomotheos" Raw="322" Element="200" ElementType="Dragon" Sharpness="White" SharpnessPlusOne="White"/>
+    <DualBlades Name="Epée étourd. Plegion" Raw="308" Sharpness="Blue" SharpnessPlusOne="Blue"/>
+    <DualBlades Name="Découpeuses de glace" Raw="322" Element="220" Affinity="25" ElementType="Ice" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <DualBlades Name="Appâts Shaka-Shaka" Raw="182" Sharpness="Blue" SharpnessPlusOne="White"/>
+    <DualBlades Name="Démolisseur spectral" Raw="364" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <DualBlades Name="Elemendeurs [+FIRE 150]" Raw="350" Element="360" ElementType="Ice" Sharpness="White"/> <!-- Fire 150 -->
+    <DualBlades Name="Ailes de minuit" Raw="308" Affinity="40" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <DualBlades Name="Superbia stygienne [+THUNDER 240]" Raw="336" Element="340" ElementType="Dragon" Sharpness="White" SharpnessPlusOne="Purple"/> <!-- Thunder 240 -->
+    <DualBlades Name="Trancheuses alluvion" Raw="336" Element="420" Affinity="0" ElementType="Water" Sharpness="Blue" SharpnessPlusOne="Purple"/>
+    <DualBlades Name="Eventails de jade" Raw="280" Sharpness="Blue" SharpnessPlusOne="White"/>
+    <DualBlades Name="Sacrifice immuable" Raw="182" Element="480" Affinity="0" ElementType="Dragon" Sharpness="White" SharpnessPlusOne="White"/>
+    <DualBlades Name="Astérisme d'Alkaid" Raw="350" Affinity="20" Sharpness="Purple"/>
+    <DualBlades Name="Confidentes Nether" Raw="336" Element="360" Affinity="10" ElementType="Thunder" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <DualBlades Name="La Fistolution" Raw="280" Element="450" Affinity="0" ElementType="Fire" Sharpness="Purple" SharpnessPlusOne="Purple"/>
+
+    <Hammer Name="Méga-marteau cuiras." Raw="1144" Sharpness="Blue" SharpnessPlusOne="White"/>
+    <Hammer Name="Punition Pykrete" Raw="1144" Element="400" ElementType="Ice" Affinity="5" Sharpness="Blue" SharpnessPlusOne="White"/>
+    <Hammer Name="Ronperagon vert" Raw="1196" Element="580" ElementType="Water" Sharpness="Blue" SharpnessPlusOne="Purple"/>
+    <Hammer Name="Démolisseur Novagio" Raw="1352" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <Hammer Name="Fantaisie Plegia" Raw="988" Affinity="10" Sharpness="White" SharpnessPlusOne="White"/>
+    <Hammer Name="Ravingeur Barroth" Raw="1404" Element="220" ElementType="Ice" Sharpness="Blue" SharpnessPlusOne="White"/>
+    <Hammer Name="Marteau Grongigas" Raw="1508" Affinity="-15" Sharpness="Blue" SharpnessPlusOne="Purple"/>
+    <Hammer Name="Brisétoile Svarog" Raw="1404" Affinity="5" Element="320" ElementType="Fire" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <Hammer Name="Marteau de guerre Jarng" Raw="1300" Element="460" ElementType="Thunder" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <Hammer Name="Nox Aeternum" Raw="1248" Affinity="30" Sharpness="Purple"/>
+    <Hammer Name="Marquer du port" Raw="1196" Affinity="20" Element="280" ElementType="Dragon" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <Hammer Name="Morphexo Alathéos" Raw="1196" Element="500" ElementType="Dragon" Sharpness="Purple"/>
+    <Hammer Name="Avant l'enfer" Raw="1144" Element="600" ElementType="Fire" Sharpness="Purple" SharpnessPlusOne="Purple"/>
+    <Hammer Name="Sceptre majestueux" Raw="1560" Sharpness="Blue" SharpnessPlusOne="White"/>
+
+
+    <SwitchAxe Name="Fatalité Felyne" Raw="782" Sharpness="Blue" SharpnessPlusOne="White"/>
+    <SwitchAxe Name="Broyeur Helios" Raw="1012" Element="280" ElementType="Dragon" Affinity="15" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <SwitchAxe Name="Hache Avidya" Raw="966" Affinity="50" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <SwitchAxe Name="Eclair blanc Remiel" Raw="1150" Element="320" ElementType="Thunder" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <SwitchAxe Name="Démolisseur explosif" Raw="1196" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <SwitchAxe Name="Vent glacé Giga" Raw="1012" Element="350" ElementType="Ice" Affinity="25" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <SwitchAxe Name="Bouton de rose azur" Raw="1196" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <SwitchAxe Name="Rugissement dragon" Raw="1196" Element="120" ElementType="Ice" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <SwitchAxe Name="Astérisme de Mizar" Raw="1150" Affinity="30" Sharpness="Purple"/>
+    <SwitchAxe Name="Excellion Nether" Raw="1196" Element="180" ElementType="Thunder" Affinity="10" Sharpness="White" SharpnessPlusOne="Purple"/>
+    <SwitchAxe Name="Althéos Voracion" Raw="1058" Element="500" ElementType="Dragon" Sharpness="Purple"/>
+    <SwitchAxe Name="L'Andrinople" Raw="1012" Element="460" ElementType="Fire" Sharpness="Purple" SharpnessPlusOne="Purple"/>
+
+    <Bow Name="Arko Tri (Bl)" Raw="228" Element="300" Affinity="5" ElementType="Ice"/>
+    <Bow Name="Arko Tri (J)" Raw="204" Element="390" Affinity="5" ElementType="Thunder"/>
+    <Bow Name="Démolisseur guerrier" Raw="312"/>
+    <Bow Name="Harpe destrier marin" Raw="300" Element="200" Affinity="10" ElementType="Water"/>
+    <Bow Name="Bandit Rafalga" Raw="324"/>
+    <Bow Name="Victrine Arken" Raw="312" Element="320" ElementType="Water"/>
+    <Bow Name="Gd piquecerf Kelbi" Raw="276"/>
+    <Bow Name="Arc éclipse" Raw="312" Affinity="20"/>
+    <Bow Name="Impératator Nether" Raw="312" Element="270" Affinity="5" ElementType="Thunder"/>
+    <Bow Name="Butin de visionnaire" Raw="300" Element="280" ElementType="Dragon"/>
+    <Bow Name="Incanonis Alathéos" Raw="264" Element="380" ElementType="Dragon"/>
+    <Bow Name="La Rysurrection" Raw="192" Element="550" ElementType="Fire"/>
+
+</Weapons>

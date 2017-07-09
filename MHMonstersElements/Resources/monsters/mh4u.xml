@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+  <Monster Name="Seltas" Fire="80" Water="40" Ice="40" Thunder="110" Dragon="0" />
+  <Monster Name="Desert Seltas" Fire="40" Water="40" Ice="80" Thunder="55" Dragon="0" />
+  <Monster Name="Seltas Queen" Fire="100" Water="0" Ice="85" Thunder="40" Dragon="0" />
+  <Monster Name="Desert Seltas Queen" Fire="0" Water="30" Ice="105" Thunder="30" Dragon="0" />
+  <Monster Name="Nerscylla" Fire="150" Water="0" Ice="50" Thunder="170" Dragon="0" />
+  <Monster Name="Shrouded Nerscylla" Fire="75" Water="0" Ice="135" Thunder="35" Dragon="0" />
+  <Monster Name="Cephadrome" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Great Jaggi" Fire="60" Water="40" Ice="40" Thunder="40" Dragon="10" />
+  <Monster Name="Velocidrome" Fire="55" Water="55" Ice="70" Thunder="55" Dragon="15" />
+  <Monster Name="Gendrome" Fire="35" Water="35" Ice="70" Thunder="55" Dragon="15" />
+  <Monster Name="Iodrome" Fire="35" Water="55" Ice="20" Thunder="55" Dragon="15" />
+  <Monster Name="Yian Kut-Ku" Fire="45" Water="100" Ice="150" Thunder="125" Dragon="20" />
+  <Monster Name="Blue Yian Kut-Ku" Fire="45" Water="145" Ice="90" Thunder="125" Dragon="20" />
+  <Monster Name="Gypceros" Fire="130" Water="45" Ice="90" Thunder="0" Dragon="70" />
+  <Monster Name="Purple Gypceros" Fire="120" Water="45" Ice="90" Thunder="0" Dragon="70" />
+  <Monster Name="Yian Garuga" Fire="25" Water="145" Ice="85" Thunder="25" Dragon="65" />
+  <Monster Name="Daimyo Hermitaur" Fire="295" Water="75" Ice="150" Thunder="275" Dragon="0" />
+  <Monster Name="Plum D.Hermitaur" Fire="150" Water="75" Ice="305" Thunder="200" Dragon="0" />
+  <Monster Name="Kecha Wacha" Fire="115" Water="0" Ice="45" Thunder="65" Dragon="0" />
+  <Monster Name="Ash Kecha Wacha" Fire="0" Water="100" Ice="50" Thunder="50" Dragon="0" />
+  <Monster Name="Lagombi" Fire="100" Water="0" Ice="0" Thunder="55" Dragon="0" />
+  <Monster Name="Congalala" Fire="155" Water="80" Ice="95" Thunder="80" Dragon="0" />
+  <Monster Name="Emerald Congalala" Fire="50" Water="115" Ice="166" Thunder="90" Dragon="0" />
+  <Monster Name="Rajang" Fire="5" Water="40" Ice="140" Thunder="0" Dragon="0" />
+  <Monster Name="Apex Rajang" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Furious Rajang" Fire="5" Water="40" Ice="140" Thunder="0" Dragon="0" />
+  <Monster Name="Tetsucabra" Fire="0" Water="160" Ice="60" Thunder="140" Dragon="35" />
+  <Monster Name="Berserk Tetsucabra" Fire="0" Water="60" Ice="170" Thunder="145" Dragon="20" />
+  <Monster Name="Zamtrios" Fire="210" Water="0" Ice="0" Thunder="215" Dragon="70" />
+  <Monster Name="Tigerstripe Zamtrios" Fire="25" Water="0" Ice="145" Thunder="100" Dragon="40" />
+  <Monster Name="Najarala" Fire="40" Water="115" Ice="190" Thunder="65" Dragon="25" />
+  <Monster Name="Tidal Najarala" Fire="170" Water="25" Ice="0" Thunder="125" Dragon="25" />
+  <Monster Name="Apex Tidal Najarala" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Brachydios" Fire="0" Water="225" Ice="245" Thunder="85" Dragon="55" />
+  <Monster Name="Raging Brachydios" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Deviljho" Fire="110" Water="110" Ice="85" Thunder="215" Dragon="215" />
+  <Monster Name="Apex Deviljho" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Savage Deviljho" Fire="200" Water="200" Ice="200" Thunder="320" Dragon="200" />
+  <Monster Name="Khezu" Fire="135" Water="30" Ice="30" Thunder="0" Dragon="30" />
+  <Monster Name="Red Khezu" Fire="30" Water="135" Ice="30" Thunder="0" Dragon="30" />
+  <Monster Name="Basarios" Fire="105" Water="155" Ice="90" Thunder="90" Dragon="166" />
+  <Monster Name="Ruby Basarios" Fire="100" Water="128" Ice="173" Thunder="90" Dragon="50" />
+  <Monster Name="Gravios" Fire="20" Water="330" Ice="95" Thunder="60" Dragon="230" />
+  <Monster Name="Apex Gravios" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Black Gravios" Fire="20" Water="280" Ice="0" Thunder="55" Dragon="50" />
+  <Monster Name="Rathian" Fire="15" Water="60" Ice="60" Thunder="105" Dragon="145" />
+  <Monster Name="Pink Rathian" Fire="5" Water="55" Ice="55" Thunder="105" Dragon="140" />
+  <Monster Name="Gold Rathian" Fire="10" Water="115" Ice="65" Thunder="165" Dragon="0" />
+  <Monster Name="Rathalos" Fire="15" Water="55" Ice="55" Thunder="110" Dragon="130" />
+  <Monster Name="Azure Rathalos" Fire="15" Water="135" Ice="160" Thunder="185" Dragon="290" />
+  <Monster Name="Silver Rathalos" Fire="10" Water="175" Ice="85" Thunder="135" Dragon="0" />
+  <Monster Name="Tigrex" Fire="30" Water="135" Ice="80" Thunder="230" Dragon="140" />
+  <Monster Name="Apex Tigrex" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Brute Tigrex" Fire="10" Water="185" Ice="102" Thunder="146" Dragon="120" />
+  <Monster Name="Molten Tigrex" Fire="0" Water="265" Ice="190" Thunder="55" Dragon="115" />
+  <Monster Name="Diablos" Fire="20" Water="90" Ice="135" Thunder="98" Dragon="90" />
+  <Monster Name="Apex Diablos" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Black Diablos" Fire="20" Water="90" Ice="135" Thunder="98" Dragon="90" />
+  <Monster Name="Monoblos" Fire="70" Water="0" Ice="130" Thunder="170" Dragon="0" />
+  <Monster Name="White Monoblos" Fire="70" Water="0" Ice="130" Thunder="170" Dragon="0" />
+  <Monster Name="Seregios" Fire="15" Water="65" Ice="80" Thunder="135" Dragon="40" />
+  <Monster Name="Apex Seregios" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Gore Magala" Fire="355" Water="0" Ice="90" Thunder="215" Dragon="250" />
+  <Monster Name="Chaotic Gore Magala" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Akantor" Fire="10" Water="130" Ice="50" Thunder="280" Dragon="310" />
+  <Monster Name="Ukanlos" Fire="265" Water="70" Ice="0" Thunder="220" Dragon="185" />
+  <Monster Name="Zinogre" Fire="125" Water="165" Ice="230" Thunder="0" Dragon="85" />
+  <Monster Name="Apex Zinogre" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="Stygian Zinogre" Fire="95" Water="200" Ice="125" Thunder="290" Dragon="0" />
+  <Monster Name="Kirin" Fire="70" Water="70" Ice="60" Thunder="0" Dragon="40" />
+  <Monster Name="Oroshi Kirin" Fire="70" Water="70" Ice="0" Thunder="60" Dragon="40" />
+  <Monster Name="Shagaru Magala" Fire="145" Water="0" Ice="45" Thunder="90" Dragon="165" />
+  <Monster Name="Dah'ren Mohran" Fire="0" Water="41" Ice="0" Thunder="142" Dragon="127" />
+  <Monster Name="Kushala Daora" Fire="135" Water="50" Ice="0" Thunder="355" Dragon="355" />
+  <Monster Name="Rusted Kushala Daora" Fire="20" Water="385" Ice="0" Thunder="60" Dragon="325" />
+  <Monster Name="Teostra" Fire="0" Water="145" Ice="150" Thunder="80" Dragon="150" />
+  <Monster Name="Chameleos" Fire="345" Water="0" Ice="10" Thunder="205" Dragon="270" />
+  <Monster Name="Dalamadur" Fire="85" Water="120" Ice="230" Thunder="230" Dragon="345" />
+  <Monster Name="Shah Dalamadur" Fire="115" Water="165" Ice="300" Thunder="300" Dragon="440" />
+  <Monster Name="Gogmazios" Fire="350" Water="30" Ice="45" Thunder="120" Dragon="580" />
+  <Monster Name="Fatalis" Fire="105" Water="35" Ice="70" Thunder="35" Dragon="210" />
+  <Monster Name="Crimson Fatalis" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+  <Monster Name="White Fatalis" Fire="0" Water="0" Ice="0" Thunder="0" Dragon="0" />
+</Monsters>

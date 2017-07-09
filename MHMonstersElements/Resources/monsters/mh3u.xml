@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Monsters>
+  <Monster Name="Great Jaggi" Fire="180" Water="150" Thunder="150" Ice="150" Dragon="30" />
+  <Monster Name="Arzuros" Fire="105" Ice="90" Thunder="70" Water="25" />
+  <Monster Name="Qurupeco" Ice="160" Water="130" Thunder="110" Fire="45" Dragon="25" />
+  <Monster Name="Great Wroggi" Ice="80" Water="40" Thunder="10" />
+  <Monster Name="Royal Ludroth" Fire="200" Thunder="65" Ice="50" Dragon="10" />
+  <Monster Name="Barroth" Water="95" Fire="77" Ice="65" />
+  <Monster Name="Lagombi" Fire="110" Thunder="55" />
+  <Monster Name="Nibelsnarf" Ice="135" Thunder="115" Water="85" Dragon="40" />
+  <Monster Name="Rathian" Dragon="165" Thunder="120" Water="70" Ice="70" Fire="15" />
+  <Monster Name="Nargacuga" Thunder="145" Fire="110" Dragon="80" Ice="45" Water="30" />
+  <Monster Name="Great Baggi" Fire="100" Thunder="40" Water="15" />
+  <Monster Name="Gigginox" Fire="145" Water="85" Dragon="35" />
+  <Monster Name="Barioth" Fire="135" Thunder="110" Dragon="45" Water="25" />
+  <Monster Name="Volvidon" Water="105" Ice="75" Thunder="55" />
+  <Monster Name="Duramboros" Fire="135" Ice="95" Thunder="85" Dragon="70" Water="35" />
+  <Monster Name="Uragaan" Water="175" Dragon="140" Ice="85" Thunder="10" />
+  <Monster Name="Plesioth" Thunder="155" Fire="130" Ice="35" Dragon="35" />
+  <Monster Name="Rathalos" Dragon="160" Thunder="120" Water="70" Ice="70" Fire="15" />
+  <Monster Name="Diablos" Ice="180" Water="90" Thunder="90" Dragon="90" Fire="20" />
+  <Monster Name="Zinogre" Ice="95" Water="75" Fire="65" Dragon="45" />
+  <Monster Name="Agnaktor" Water="145" Ice="105" Dragon="55" Thunder="30" />
+  <Monster Name="Purple Ludroth" Fire="115" Thunder="70" Ice="35" Dragon="10" />
+  <Monster Name="Crimson Qurupeco" Ice="155" Fire="105" Water="65" Dragon="35" />
+  <Monster Name="Green Nargacuga" Thunder="145" Fire="110" Dragon="80" Ice="45" Water="30" />
+  <Monster Name="Jade Barroth" Fire="100" Thunder="75" Dragon="12" Water="5" />
+  <Monster Name="Baleful Gigginox" Water="155" Dragon="75" Fire="35" />
+  <Monster Name="Sand Barioth" Ice="115" Thunder="85" Water="65" Dragon="40" />
+  <Monster Name="Steel Uragaan" Water="185" Dragon="172" Ice="105" Thunder="20" />
+  <Monster Name="Glacial Agnaktor" Fire="180" Dragon="130" Thunder="80" />
+  <Monster Name="Black Diablos" Ice="168" Water="105" Thunder="105" Dragon="105" Fire="30" />
+  <Monster Name="Silver Rathalos" Thunder="140" Water="100" Ice="55" Fire="10" />
+  <Monster Name="Gold Rathian" Thunder="140" Water="100" Ice="55" Fire="10" />
+  <Monster Name="Gobul" Thunder="135" Fire="60" Ice="20" />
+  <Monster Name="Jhen Mohran" Ice="142" Dragon="137" Water="81" Thunder="81" />
+  <Monster Name="Hallowed Jhen Mohran" Fire="127" Thunder="86" Dragon="86" />
+  <Monster Name="Green Plesioth" Thunder="155" Fire="130" Ice="35" Dragon="35" />
+  <Monster Name="Ceadeus" Dragon="185" Thunder="135" Fire="65" Ice="15" />
+  <Monster Name="Goldbeard Ceadeus" Dragon="185" Thunder="148" Fire="65" Ice="15" />
+  <Monster Name="Stygian Zinogre" Thunder="167" Water="107" Ice="70" Fire="55" />
+  <Monster Name="Rust Duramboros" Water="145" Ice="145" Dragon="75" Thunder="62" Fire="45" />
+  <Monster Name="Brachydios" Water="105" Ice="70" Thunder="30" Dragon="20" />
+  <Monster Name="Lucent Nargacuga" Ice="130" Dragon="90" Water="80" Fire="45" Thunder="20" />
+  <Monster Name="Lagiacrus" Fire="115" Ice="45" Dragon="45" />
+  <Monster Name="Ivory Lagiacrus" Fire="138" Dragon="138" Ice="61" />
+  <Monster Name="Abyssal Lagiacrus" Dragon="125" Fire="85" Ice="45" />
+  <Monster Name="Azure Rathalos" Dragon="155" Ice="110" Water="80" Thunder="80" Fire="10" />
+  <Monster Name="Pink Rathian" Dragon="135" Thunder="95" Water="50" Ice="50" Fire="5" />
+  <Monster Name="Deviljho" Thunder="97" Dragon="90" Fire="55" Water="55" Ice="20" />
+  <Monster Name="Alatreon (Ground)" Dragon="30" Water="65" Ice="95" Thunder="30" />
+  <Monster Name="Alatreon (Flight)" Dragon="120" Fire="95" Water="30" />
+</Monsters>

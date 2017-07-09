@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            background-color: #fff2de;
+            margin: 0px;
+            padding: 0px;
+            font: normal 14px verdana, arial;
+        }
+        .elemtable {
+            border-collapse: collapse;
+        }
+        .elemtable th, td {
+            background-color: whitesmoke;
+            border-width: 1px;
+            border-style: solid;
+            border-color: gainsboro;
+        }
+        .elemtable th {
+            background-color: #fff2de;
+        }
+        .elemtable td {
+            text-align: right;
+            width: 40px;
+            padding: 2px 4px 2px 4px;
+        }
+        .elemtable .cell_monster_name {
+            text-align: left;
+            padding-right: 16px;
+        }
+        .elemtable .cell_total_name {
+            text-align: left;
+            padding-right: 16px;
+        }
+        .elemtable .cell_total_name, .cell_total_value {
+            background-color: #ededed;
+        }
+
+        .elemtable .nocell {
+            background-color: transparent;
+            border-top-style: hidden;
+            border-left-style: hidden;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+        .elemicon {
+            width: 18px;
+            height: 18px;
+            vertical-align: middle;
+        }
+        figcaption {
+            font-style: italic;
+            font-size: 12px;
+        }
+        a {
+            color: #cc9555;
+        }
+        .main_wrapper {
+            margin: auto;
+            padding: 12px;
+            width: 900px;
+            background-color: white;
+        }
+    </style>
+    <title>Tanuki's MH Monsters Elements</title>
+</head>
+<body>
+    <div class="main_wrapper">
+    <h1>Tanuki's MH Monsters Elements</h1>
+    <h2 lang="en">Overview</h2>
+    <p lang="en">
+        MH Monsters Elements is an application to find the best element of one or several monsters, and thus determine the best weapon to use.
+        It does not make much sense to use it to fight one monster, however, fighting several ones in the same quest could become tricky to determine the best element to use.
+    </p>
+    <p lang="en">
+        When you run the application, it shows all monsters without any filtering, and thus you can see it as the following:
+    </p>
+    <figure>
+        <img src="images/screenshot01.png" alt="Application when you run it" title="Application after you just run it." />
+        <figcaption lang="en" class="en">Application after you just run it.</figcaption>
+    </figure>
+    <p lang="en">
+        This document is bit long, and maybe you do not want to read all, so just read the Elements section, as long as it's the most important and probably not intuitive.<br />
+        For the <a href="#filtering">Filtering</a> and <a href="#recommended_weapons">Recommended Weapons</a> sections, if you do not want to read, just type in the 'Monsters:' text box and you should get it quickly.<br />
+        Separate monster names with semi-colon symbol (;) or coma symbol (,) if you want to filter many, and use the equal sign (=) before a monster's name to match the exact name.
+    </p>
+    <h2 lang="en">Elements</h2>
+    <p lang="en">
+        Each monster has some elements beside it's icon. These are the sums of the weakness of all parts to the corresponding elements.
+        Some monsters have weakness to all elements, like the Rathian, some have weakness to some of the elements, but not all, like the Lagombi.
+    </p>
+    <p lang="en">
+        As you can see on the image above, the Rathian is most weak to <img class="elemicon" src="images/dragon.png" alt="Dragon icon" title="Dragon" /> with 165 points, and then to the <img class="elemicon" src="images/thunder.png" alt="Thunder icon" title="Thunder" /> with 120 points.<br />
+        The fact a monster has x in <img class="elemicon" src="images/ice.png" alt="Ice icon" title="Ice" /> and half of x in <img class="elemicon" src="images/fire.png" alt="Fire icon" title="Fire" /> does not mean <img class="elemicon" src="images/ice.png" alt="Ice icon" title="Ice" /> will make twice more damage than <img class="elemicon" src="images/fire.png" alt="Fire icon" title="Fire" />, as long as the damage formula is more complex than that, but the <img class="elemicon" src="images/ice.png" alt="Ice icon" title="Ice" /> will be more efficient.
+    </p>
+    <p lang="en">
+        At the bottom most of the window, there is another list of elements, these are the sum element weaknesses of all the monsters listed in the main part of the window.<br />
+        So you can see that, the element the monsters (again, it does not make that much sense with all monsters listed) are the most weak are, in the following order: <img class="elemicon" src="images/thunder.png" alt="Thunder icon" title="Thunder" />, then <img class="elemicon" src="images/ice.png" alt="Ice icon" title="Ice" />, then <img class="elemicon" src="images/fire.png" alt="Fire icon" title="Fire" />, then <img class="elemicon" src="images/dragon.png" alt="Dragon icon" title="Dragon" /> and finally <img class="elemicon" src="images/water.png" alt="Water icon" title="Water" />.<br />
+        The interest of this application is to be able to isolate the monsters you are interested in, and see the best element to use.
+    </p>
+    <h2 lang="en" id="filtering">Filtering</h2>
+    <p lang="en">
+        The interest of MH Monsters Elements application is that you can isolate one or several monsters, and I will explain how to do that right now.
+        At the top of the window, there is a text field entitled 'Monsters:' so here you can type the name (or a part of the name) of a monster and it will be filtered.
+        I know some would have prefer a click-based system with check boxes, but text-based is actually the most efficient, trust me.
+    </p>
+    <p lang="en">
+        First, you have to know that the typing is <em>case insensitive</em>, which means you can type with upper case or lower case letters, it does not matter.
+    </p>
+    <p lang="en">
+        If you type 'rath' in the text box, all the monsters containing 'rath' in their name appear, so the three Rathians and the three Rathalos appear, as shown in the image bellow.
+    </p>
+    <figure>
+        <img src="images/screenshot02.png" alt="Filtered with 'rath'" title="Monsters filtered with the text 'rath'." />
+        <figcaption lang="en">Monsters filtered with the text 'rath'.</figcaption>
+    </figure>
+    <p lang="en">
+        We can see that the most interesting element in that case is <img class="elemicon" src="images/thunder.png" alt="Thunder icon" title="Thunder" />.
+        However, we rarely (never?) fight these 6 monsters in the same quest, so we want to enrich the filter to match a better subset.
+        Inputing 'ratha' in the text box excludes the Rathians, and thus only the three Rathalos remain, as shown in the image bellow.
+    </p>
+    <figure>
+        <img src="images/screenshot03.png" alt="Filtered with 'ratha'" title="Monsters filtered with the text 'ratha'." />
+        <figcaption lang="en">Monsters filtered with the text 'ratha'.</figcaption>
+    </figure>
+    <p lang="en">
+        So if you go to a quest where you have to fight the three different kind of Rathalos, you probably would like to take a <img class="elemicon" src="images/thunder.png" alt="Thunder icon" title="Thunder" />, or <img class="elemicon" src="images/dragon.png" alt="Dragon icon" title="Dragon" /> weapon.
+        Anyway, for sure you do not want to take a <img class="elemicon" src="images/fire.png" alt="Fire icon" title="Fire" /> weapon.
+    </p>
+    <p lang="en">
+        If you want to see only the Azure Rathalos, you do not have to type its name entirely, you can just type 'azu', as long as this is the only monster which contains 'azu' in its full name.
+    </p>
+    <figure>
+        <img src="images/screenshot04.png" alt="Filtered with 'azu'" title="Shows the Azure Rathalos only." />
+        <figcaption lang="en">Shows the Azure Rathalos only.</figcaption>
+    </figure>
+    <p lang="en">
+        In this case, the total elements summary at the bottom of the window matches the monster's element weakness list.
+    </p>
+    <p lang="en">
+        What if you want to see only the Rathalos?<br />
+        Typing 'rathalos' even completly would show all the monsters containing the word 'rathalos' in their full name, thus including the Azure and Silver ones.<br />
+        The way to workaround it is to add an equal symbol '=' before the text you are looking for, which means 'do not match monsters <u>containing</u> the text but the one that <u>is equal to</u> the text'.
+        So, if you type '=rath' then no monster is displayed, because there is no monster the name is equal to 'rath'.
+    </p>
+    <figure>
+        <img src="images/screenshot05.png" alt="Filtered to equal to 'rath'" title="Filtered to find a monster with the name equal to 'rath'." />
+        <figcaption lang="en">Filtered to find a monster with the name equal to 'rath'.</figcaption>
+    </figure>
+    <p lang="en">
+        Typing the name 'rathalos' after the equal sign '=' makes the Rathalos, and only it, to appear, as shown in the image bellow.
+    </p>
+    <figure>
+        <img src="images/screenshot06.png" alt="Filtered to equal to 'rathalos'" title="Filtered to find a monster with the name equal to 'rathalos'." />
+        <figcaption lang="en">Filtered to find a monster with the name equal to 'rathalos'.</figcaption>
+    </figure>
+    <p lang="en">
+        Most of time, you want to filter several monsters, but not the same species, so hereafter is how to combine filters.<br />
+        Type several monster name separated by coma symbol (,) or semi-colon symbol (;), as follow:
+    </p>
+    <figure>
+        <img src="images/screenshot07.png" alt="Combined filters" title="Combined filters." />
+        <figcaption lang="en">Combined filters.</figcaption>
+    </figure>
+    <p lang="en">
+        This shows the Arzuros and the Brachydios together, and at the bottom of the window, the best element to use to fight these monsters together.<br />
+        As you can see, the <img class="elemicon" src="images/ice.png" alt="Ice icon" title="Ice" /> element is the best to chose.<br />
+        Or maybe <img class="elemicon" src="images/water.png" alt="Water icon" title="Water" /> because it deals more damages to the Brachydios, and not so much to the Arzuros but this is an easy monster.<br />
+        So you can feel free to ponderate the result, as long as the application do not take the threat level of the monster into account. Maybe in a future version.
+    </p>
+    <p lang="en">
+        Finally, you can combine filters with and without the equal sign, independently per filter.<br />
+        Type '=rathalos, bra' and thus the application will match a monster where the name is equal to 'rathalos' and all monsters where the name contains 'bra'.<br />
+        In the end, you get the Rathalos and the Brachydios, as long as only these two monsters match the filter.
+    </p>
+    <figure>
+        <img src="images/screenshot08.png" alt="Combined filters with equal sign" title="Combined filters with equal sign." />
+        <figcaption lang="en">Combined filters with equal sign.</figcaption>
+    </figure>
+    <p lang="en">
+        In this case, you can see that <img class="elemicon" src="images/dragon.png" alt="Dragon icon" title="Dragon" /> element is the best one globally.<br />
+        However, if you look at it locally, it is very good for the Rathalos, but very bad for the Brachydios, so in this case <img class="elemicon" src="images/water.png" alt="Water icon" title="Water" /> seems to be a better choice.
+    </p>
+    <h2 lang="en" id="recommended_weapons">Recommended weapons</h2>
+    <h3 lang="en">Overview</h3>
+    <p lang="en">
+        Another feature of the application is to try to tell you what is the best weapon to use.<br />
+        This is done by setting a list of available weapons (namely the best weapons you own) and the application resolves a damage formula for each weapon, and tells you the three weapons that return the best total amount of damage, per weapon type.<br />
+        The formula used is a simplified version of the real formula and will be discussed later.<br />
+        At the bottom of the window, above the frame that shows the total elements, there is a folded frame entitled 'Recommended weapons'. You can click it to fold or unfold it.<br />
+        It shows the best weapons to use according to the filtered monsters, and thus it changes according to what you type as filter.<br />
+    </p>
+    <figure>
+        <img src="images/screenshot09.png" alt="Recommended weapons" title="Recommended weapons." />
+        <figcaption lang="en">Recommended weapons.</figcaption>
+    </figure>
+    <p lang="en">
+        The list of weapons provided by default contains most of the best Great Swords, Long Swords, Bows and Dual Swords, and the names are in French, sorry about that.<br />
+        Anyway, the goal of the available weapons is for <u>you</u> to set the ones you own, so I recommend you to edit the weapons.<br />
+        To do so, there is a file at the root level of the MH Monsters Elements application named 'weapons.xml', this is the file you will have to edit.<br />
+        If you want to organize your wepons per file, you can do so by adding files, but their name (filename) must start with 'weapon' and have the '.xml' extension.<br />
+        For exemple, having weapon_gs.xml, weapon_ls.xml, weapon_ds.xml, and so on is a good idea.
+    </p>
+    <p lang="en">
+        The file contains the following markups:
+    </p>
+        <pre style="font-family: Consolas; font-size: 13px; color: black; background: white;"><span style="color:blue;">&lt;?</span><span style="color:#a31515;">xml</span><span style="color:blue;">&nbsp;</span><span style="color:red;">version</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">1.0</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">encoding</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">utf-8</span>&quot;<span style="color:blue;">?&gt;</span>
+<span style="color:blue;">&lt;</span><span style="color:#a31515;">Weapons</span><span style="color:blue;">&gt;</span>
+ 
+<span style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span style="color:#a31515;">GreatSword</span><span style="color:blue;">&nbsp;</span><span style="color:red;">Name</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Brunnhilde</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Raw</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">1200</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Sharpness</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">White</span>&quot;<span style="color:blue;">/&gt;</span>
+<span style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span style="color:#a31515;">GreatSword</span><span style="color:blue;">&nbsp;</span><span style="color:red;">Name</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Depotheosis</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Raw</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">1056</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Element</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">720</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Affinity</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">0</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">ElementType</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Fire</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Sharpness</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Purple</span>&quot;<span style="color:blue;">/&gt;</span>
+    ...
+             
+<span style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span style="color:#a31515;">LongSword</span><span style="color:blue;">&nbsp;</span><span style="color:red;">Name</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Astérisme&nbsp;de&nbsp;Megrez</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Raw</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">726</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Affinity</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">50</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Sharpness</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Purple</span>&quot;<span style="color:blue;">/&gt;</span>
+<span style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span style="color:#a31515;">LongSword</span><span style="color:blue;">&nbsp;</span><span style="color:red;">Name</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">L&#39;Adjudition</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Raw</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">693</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Element</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">500</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Affinity</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">0</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">ElementType</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Fire</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Sharpness</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Purple</span>&quot;<span style="color:blue;">/&gt;</span>
+    ...
+
+<span style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span style="color:#a31515;">DualBlades</span><span style="color:blue;">&nbsp;</span><span style="color:red;">Name</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Astérisme&nbsp;d&#39;Alkaid</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Raw</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">350</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Affinity</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">20</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Sharpness</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Purple</span>&quot;<span style="color:blue;">/&gt;</span>
+<span style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span style="color:#a31515;">DualBlades</span><span style="color:blue;">&nbsp;</span><span style="color:red;">Name</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">La&nbsp;Fistolution</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Raw</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">280</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Element</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">450</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Affinity</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">0</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">ElementType</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Fire</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Sharpness</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Purple</span>&quot;<span style="color:blue;">/&gt;</span>
+    ...
+             
+<span style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span style="color:#a31515;">Bow</span><span style="color:blue;">&nbsp;</span><span style="color:red;">Name</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">La&nbsp;Rysurrection</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Raw</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">192</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Element</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">550</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">ElementType</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Fire</span>&quot;<span style="color:blue;">/&gt;</span>
+<span style="color:blue;">&nbsp;&nbsp;&nbsp;&nbsp;&lt;</span><span style="color:#a31515;">Bow</span><span style="color:blue;">&nbsp;</span><span style="color:red;">Name</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Altheos&nbsp;Incanonis</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Raw</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">364</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">Element</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">380</span>&quot;<span style="color:blue;">&nbsp;</span><span style="color:red;">ElementType</span><span style="color:blue;">=</span>&quot;<span style="color:blue;">Dragon</span>&quot;<span style="color:blue;">/&gt;</span>
+    ...
+
+<span style="color:blue;">&lt;/</span><span style="color:#a31515;">Weapons</span><span style="color:blue;">&gt;</span>
+</pre>
+    <p lang="en">
+        So you can add or remove weapons by following the sample above.<br />
+        You must respect a proper syntax when you write a weapon information, otherwise it will be considered as invalid by the application.
+    </p>
+    <h3 lang="en">Node markup</h3>
+    <p lang="en">
+        The node markup name for weapons are as follow:
+    </p>
+    <ul>
+        <li>GreatSword</li>
+        <li>LongSword</li>
+        <li>SwordAndShield</li>
+        <li>DualBlades</li>
+        <li>Hammer</li>
+        <li>HuntingHorn</li>
+        <li>Lance</li>
+        <li>Gunlance</li>
+        <li>SwitchAxe</li>
+        <li>LightBowGun</li>
+        <li>HeavyBoxGun</li>
+        <li>Bow</li>
+    </ul>
+    <h3 lang="en">Attributes markup</h3>
+    <p>
+        The attributes on each weapon node are:
+    </p>
+    <ul>
+        <li>
+            Raw
+            <ul>
+                <li>Mandatory.</li>
+                <li>This is the raw damage of the weapon.</li>
+            </ul>
+        </li>
+        <li>
+            Affinity
+            <ul>
+                <li>Optional.</li>
+                <li>This is the affinity of the weapon.</li>
+            </ul>
+        </li>
+        <li>
+            Element
+            <ul>
+                <li>Optional.</li>
+                <li>This is the element damage of the weapon.</li>
+            </ul>
+        </li>
+        <li>
+            ElementType
+            <ul>
+                <li>Optional.</li>
+                <li>
+                    This is the type of element of the weapon, the possible values are as follow:
+                    <ul>
+                        <li>Fire</li>
+                        <li>Water</li>
+                        <li>Ice</li>
+                        <li>Thunder</li>
+                        <li>Dragon</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li>
+            Sharpness
+            <ul>
+                <li>Optional. The default value is Green.</li>
+                <li>
+                    This is the maximum sharpness of the weapon.<br />
+                    At Sharpness +1 or not is up to you, but input all your weapon information based on the same standard.
+                <li>
+                    The possible values are as follow:
+                    <ul>
+                        <li>Red</li>
+                        <li>Orange</li>
+                        <li>Yellow</li>
+                        <li>Green</li>
+                        <li>Blue</li>
+                        <li>White</li>
+                        <li>Purple</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+    <h3 lang="en">Damage formula</h3>
+    <p lang="en">
+        The damage formula used to determine the best weapon is as follow:
+    </p>
+    <p lang="en">
+        RawDamage = Raw * Affinity * RawSharpnessMultiplier / WeaponClassMultiplier<br />
+        ElementalDamage = Element * ElementalSharpnessMultiplier * MonsterElemement / 10<br />
+        Damage = RawDamage + ElementalDamage
+    </p>
+    <p lang="en">
+        The formula has been simplified because, what is important is not the exact amount of damaged dealt, but just to compare the amounts of damage dealt by each weapon.<br />
+        Thus, for exemple, the attack move type or monster part target can be removed from the equation because they are the same no matter what weapon you use.
+    </p>
+    <p lang="en">
+        <em>Note:</em> For the bow, the RawDamage in the forumla is multiplied by 0.225 (almost divided by 4) because, the bow deal raw damage per arrow (* 1.5) then per charge type (* 1.5 average) then arrow multiplier (* 0.1 average)<br />
+        <em>Note:</em> I never played bowguns, so there is no specific support for these weapons.
+    </p>
+	</div>
+</body>
+</html>
